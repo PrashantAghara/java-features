@@ -22,7 +22,7 @@ public class StreamObjectMain {
         Stream<String> arrayStream = Arrays.stream(names);
         IntStream integerStream = Arrays.stream(new int[]{1,2,3,4});
 
-        //Method 5
+        //Method 5 - MOST USED
         List<Integer> list = Arrays.asList(1, 2, 3, 4, 5, 6);
         Stream<Integer> stream1 = list.stream();
     }
